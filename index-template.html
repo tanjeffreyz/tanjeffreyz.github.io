@@ -5,6 +5,24 @@
         <title>Redirect</title>
         <meta http-equiv="refresh" content="0; URL=__URL__">
         <link rel="canonical" href="__URL__">
+
+        <style>
+            body {
+                opacity: 0;
+                animation: fadeInAnimation ease 1s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+                animation-delay: 3s;
+            }
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
     </header>
     <body>
         <div align="center">
