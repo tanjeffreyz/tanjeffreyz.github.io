@@ -37,3 +37,4 @@ jobs:
         git add * || true
         git commit -m 'Updated index.html' || true
         git push
+        git push -f origin main:github-pages
